@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("./images/magmid.jpg") center no-repeat;
+    background-size: cover;
+    color: #c3c3c3;
+    position: relative;
+    z-index: -10;
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000073;
+    z-index: -5;
+}
+
+#home > img {
+    width: 200px;
+}
+
+#skills {
+
+}
+
+#experience {
+
+}
+
+#projects {
+
+}
+
+#contact {
+
+}
+
+#menu {
+
+}
